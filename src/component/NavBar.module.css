@@ -1,0 +1,62 @@
+
+.navbarContainer {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px 100px;
+  background-color: white; 
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbarItems {
+  display: flex;
+  align-items: center;
+}
+
+.navbarItems ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarItems li {
+  margin-right: 70px; 
+  font-size: 18px;
+}
+
+.navList a {
+  color: black; 
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navList a:hover {
+  color: purple; 
+}
+
+.registerButton {
+  background-color: purple; 
+  border: 1px transparent;
+  border-radius: 5px;
+  width: 29%;
+  height: 43px;
+}
+
+.registerButton a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px
+
+}
+
+.registerButton a:hover {
+  color: #f0f0f0;
+}
+
+
+

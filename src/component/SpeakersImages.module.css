@@ -1,0 +1,17 @@
+.grid-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.grid-item {
+  min-width: 100px;
+  height: 100px;
+  margin: 5px;
+  background-color: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}

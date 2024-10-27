@@ -1,0 +1,14 @@
+.HeroButtonContainer .HeroButton{
+  border: 1px transparent;
+  border-radius: 5px;
+  width: 67%;
+  height: 67px;
+  font-size: 19px;
+  background-color: purple;
+  color: white;
+  font-weight: 400;
+}
+.HeroButtonContainer .HeroButton:hover{
+  background-color: #b10cdee6;
+  cursor: pointer;
+}

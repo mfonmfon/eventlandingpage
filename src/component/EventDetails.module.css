@@ -1,0 +1,40 @@
+.EventDetailsContainer{
+  width:100%;
+  height: 100%;
+}
+.EventDetailsContainer .eventDatilsText{
+  font-size: 50px;
+  margin-left: 5%;
+}
+
+.eventDetailsWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 10);
+}
+.eventDetailsWrap .EventDetails{
+  display: flex;
+  padding: 100px 186px;
+  margin-top: 6%;
+  width: 4%;
+  border: 1px transparent;
+  border-radius: 10px;
+  background: black;
+  color: white;
+  align-items: center; 
+  transition: 0.5s ease-in-out;
+}
+.eventDetailsWrap .EventDetails h2{
+  font-size: 30px;
+  align-items: center;
+  
+}
+.eventDetailsWrap .EventDetails h2 :hover{
+ color: black;
+ background-color: purple;
+}
+
